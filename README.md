@@ -31,14 +31,25 @@ Contains the following:
  - **Lot 3** The p-value is above the assumed significance level. Therefore, we would state that there is not enough evidence to reject the null hypothesis and we can confirm our two samples are not statistically different.
 
 ![Multiple T Tests (png)](./images/deliverable3.png)
+
 **T Tests**
 
+## Study Design: MechaCar vs Competition
+### Description of study
 
-
-
-
-
-
+- What metric or metrics are you going to test?
+  - manufacturer
+  - number of models offered with high city efficiency (mpg)
+  - number of models offered with high highway efficiency (mpg)
+  - total units sold by manufacturer
+  - location
+  - date
+- What is the null hypothesis or alternative hypothesis?
+  - Do consumers buy cars from manufacturers that offer a higher quantity of "fuel efficient" models, regardless of cost? Consumers will purchase from a manufacturer that they feel is more "Eco-conscience", regardless of what vehicle they actually purchase from that given manufacturer.
+- What statistical test would you use to test the hypothesis? And why?
+  - Linear Regression will be used to see if vehicles sold within a similar date and location are impacted in a statistically meaningful way based on the number of fuel efficient models that a given manufacturer offers.
+- What data is needed to run the statistical test?
+  - A population of all new auto sales in a region and time period across multiple manufacturers, and the number of fuel efficient models that each manufacturer is selling at the time of each vehicle purchase.
 
 
 

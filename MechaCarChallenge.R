@@ -2,7 +2,7 @@ library(jsonlite)
 library(tidyverse)
 library(dplyr)
 
-# read in dataset
+# read in data set
 cars_data <- read.csv('MechaCar_mpg.csv',stringsAsFactors = F) 
 
 head(cars_data)
@@ -41,6 +41,7 @@ t.test(log10(coils_data$PSI),log10(lot2_summary$PSI))
 lot3_summary <- coils_data %>% filter(Manufacturing_Lot == 'Lot3')
 t.test(log10(coils_data$PSI),log10(lot3_summary$PSI))
 
+# Study Design: MechaCar vs Competition
 
 
 
